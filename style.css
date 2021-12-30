@@ -1,5 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+            background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+}
 .head{
 	border-bottom:1px solid #FFF;
 	margin-bottom:10px;
@@ -10,6 +18,7 @@ h1,h3{
 }
 th,td{
 	border:1px solid #FFF;
+	padding:10px;
 }
 .td{
 	padding-left:10px;
@@ -17,6 +26,11 @@ th,td{
 }
 .button{
 	text-align:center;
+}
+a,button{
+	font-weight:bold;
+    padding:10px;
+    text-decoration:none;
 }
 
 /* Pop-up Alert */
